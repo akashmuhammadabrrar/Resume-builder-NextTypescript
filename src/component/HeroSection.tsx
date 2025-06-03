@@ -120,22 +120,30 @@ const HeroSection = () => {
       </div>
 
       {/* Metrics Box below Hero */}
-      <div className="w-[85%] mx-auto bg-white h-32 rounded-xl relative top-16 shadow-2xl">
-        <div className="flex justify-evenly items-center h-full">
-          <div className="flex flex-col items-center justify-center">
-            <Contact color="#9377FF" size={45} />
-            <p className="mt-2 text-xl text-center">Pass ATS screens</p>
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <CalendarSearch color="#9377FF" size={45} />
-            <p className="mt-2 text-xl text-center">2x more interviews</p>
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <ReceiptEuro color="#9377FF" size={45} />
-            <p className="mt-2 text-xl text-center">Higher paying jobs</p>
-          </div>
-        </div>
-      </div>
+      <div className="w-[90%] max-w-7xl mx-auto bg-white rounded-xl relative top-16 shadow-2xl px-4 py-6">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center">
+    
+    {/* Item 1 */}
+    <div className="flex flex-col items-center justify-center">
+      <Contact color="#9377FF" size={45} />
+      <p className="mt-2 text-lg sm:text-xl">Pass ATS screens</p>
+    </div>
+
+    {/* Item 2 */}
+    <div className="flex flex-col items-center justify-center">
+      <CalendarSearch color="#9377FF" size={45} />
+      <p className="mt-2 text-lg sm:text-xl">2x more interviews</p>
+    </div>
+
+    {/* Item 3 */}
+    <div className="flex flex-col items-center justify-center">
+      <ReceiptEuro color="#9377FF" size={45} />
+      <p className="mt-2 text-lg sm:text-xl">Higher paying jobs</p>
+    </div>
+
+  </div>
+</div>
+
     </section>
   );
 };

@@ -4,9 +4,9 @@ import { CalendarSearch, Contact, ReceiptEuro } from "lucide-react";
 const ExtraStats = () => {
     return (
         <div>
-            <div className="w-full mx-auto p-5 bg-gray-200">
+        <div className="w-full mx-auto p-5 bg-gray-200">
         <h2 className="text-4xl text-center my-10">Here's What You Got</h2>
-        <div className="flex justify-evenly items-center h-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center">
           <div className="flex flex-col items-center justify-center">
             <Contact color="#9377FF" size={45} />
             <p className="mt-2 text-xl text-center">ATS-Formatting</p>
