@@ -1,6 +1,7 @@
 import HeroSection from "@/component/HeroSection";
 import JobSection from "@/component/JobSection";
 import Navbar from "@/component/Navbar";
+import ResumeSection from "@/component/ResumeSection";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <JobSection></JobSection>
+      <ResumeSection></ResumeSection>
     </main>
   );
 }

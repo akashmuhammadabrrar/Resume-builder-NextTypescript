@@ -5,8 +5,8 @@ import job3 from "@/assets/images/imgtop3.png";
 
 const JobSection = () => {
   return (
-    <section className="w-full px-6 py-12 bg-gradient-to-b mt-20 from-white to-[#e6f0ff]">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    <section className="w-full px-6 py-12 bg-gradient-to-b mt-24 from-white to-[#e6f0ff]">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
         {/* Left Text Content */}
         <div className="space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold">
