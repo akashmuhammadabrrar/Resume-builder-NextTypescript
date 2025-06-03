@@ -59,6 +59,8 @@ const ResumeSection = () => {
           Build Your AI Resume →
         </button>
       </div>
+    
+       
     </section>
   );
 };
